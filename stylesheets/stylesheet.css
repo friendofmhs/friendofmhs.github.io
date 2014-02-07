@@ -165,9 +165,9 @@ pre, code {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
 }
 
 pre {
@@ -192,7 +192,7 @@ blockquote {
   color: #666;
   margin-bottom: 20px;
   padding: 0 0 0 20px;
-  border-left: 3px solid #bbb;
+  border-left: 0px solid #bbb;
 }
 
 
@@ -232,7 +232,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 0px solid #373737;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -246,7 +246,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 0px solid #373737;
  }
 
 form {
@@ -280,8 +280,8 @@ Full-Width Styles
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 0px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 #header_wrap {
@@ -354,8 +354,8 @@ Full-Width Styles
 
 #main_content_wrap {
   background: #f2f2f2;
-  border-top: 1px solid #111;
-  border-bottom: 2px solid #111;
+  border-top: 0px solid #111;
+  border-bottom: 0px solid #111;
 }
 
 #main_content {
